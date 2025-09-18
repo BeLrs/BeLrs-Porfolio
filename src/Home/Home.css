@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Electro;
+    src: url(/fonts/Electrolize-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+.link{
+        color: rgb(92, 141, 237);
+}
+header{
+    font-family: Electro;
+    border-bottom: 3px solid rgb(19, 103, 220);
+}
+
+body{
+    background-image: url(/images/aurora.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#My{
+    font-family: Montserrat;
+    font-style: bold;
+    text-shadow: 2px 5px 3px rgb(13, 99, 219);
+}
+#email{
+    display: inline;
+}
+
+
+footer{
+    font-family: Electro;
+    color:rgb(30, 100, 239);
+    position: fixed;
+    top: 90vh;
+}
