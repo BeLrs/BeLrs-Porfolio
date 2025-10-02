@@ -6,20 +6,69 @@
     font-family: Montserrat;
     src: url(/fonts/Montserrat-VariableFont_wght.ttf);
 }
-.link{
-        color: rgb(92, 141, 237);
-}
-header{
-    font-family: Electro;
-    border-bottom: 3px solid rgb(19, 103, 220);
-}
 
+header{
+    background-color: rgb(25, 37, 63);
+    font-family: Electro;
+    padding: 15px;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: rgb(242, 245, 255);
+    box-shadow: 20px 10px 2px rgb(15, 35, 116);
+}
+nav .link{
+    color: rgb(16, 21, 59);
+    text-decoration: none;
+    font-family: Electro;
+    font-weight: bolder;
+    font-size:2rem;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    
+}
+nav a:hover{
+    background-color: rgb(10, 9, 46);
+    color:rgb(220, 220, 220);
+}
 body{
+    margin: 0px;
     background-image: url(/images/aurora.jpg);
     background-position: center;
     background-size: cover;
 }
-
+main{
+    color: white;
+    
+}
+aside{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear:both;
+    font-family: Electro;
+    color:rgb(30, 100, 239);
+    background-color: rgb(25, 37, 63);
+    
+    top: 90vh;
+    padding: 15px;
+}
+footer a{
+    padding: 15px;
+}
+.link{
+    color: rgb(92, 141, 237);
+    text-decoration: none;
+}
 #My{
     font-family: Montserrat;
     font-style: bold;
@@ -27,12 +76,4 @@ body{
 }
 #email{
     display: inline;
-}
-
-
-footer{
-    font-family: Electro;
-    color:rgb(30, 100, 239);
-    position: fixed;
-    top: 90vh;
 }
